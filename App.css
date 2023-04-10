@@ -1,0 +1,18 @@
+#about{
+    display: flex;
+    justify-content: center;
+    margin-right: 483px; 
+    margin-left: 442px;
+}
+
+
+.card-title{
+    color: blue; 
+}
+#job{
+    display: flex;
+    justify-content: center;
+     margin-right: 483px; 
+     margin-left: 442px; 
+     margin-bottom: 200px;
+}
