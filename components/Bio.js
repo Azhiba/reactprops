@@ -6,7 +6,7 @@ import React, {Component} from 'react'
         const myStyle={color:"blue" , fontSize:"1.2rem",margin:"7px",};
     return (
         <div className="media">
-            <img src="./im1.jpg" className="mr-3" alt="Biophoto"  style={{width:"250px"}}/>
+            <img src="./im1.jpg" className="mr-3" alt="Biophoto"/>
             <div className="media-body">
             <h5 className="mt-0" style={{textTransform: "uppercase",margin:"10px",}}>{this.props.FullName}</h5>
             <span style = {myStyle}>Age:</span> {this.props.Age} <br/>

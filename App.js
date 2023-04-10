@@ -13,16 +13,15 @@ const handlealert =(x)=>alert(x);
       <FullName firstName="Hiba" lastName="Azzouz">
       </FullName>
       <br/>
-      <div style={{border:"black double",  marginTop:"20px",}} id="about">
+      <div style={{ marginTop:"20px",}} id="about">
       <Bio FullName="Hiba Azouz" Age="27" Gender="Female" Interests="Sport, Watching TV , Eating and Sleeping"  />
       </div>
       <br/>
-      <div style={{border:"black double",  marginTop:"20px",}} id="job">
+       <div style={{ marginTop:"20px",}} id="job"> 
       <Profession    handlealert={handlealert}/>
       </div>
     
-   
-
+  
     </>
   );
 }
